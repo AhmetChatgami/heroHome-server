@@ -39,6 +39,8 @@ const middleware = async (req, res, next)=>{
   if(!author){
     res.status(401).send({message: "Invalid Token"})
   }
+  console.log(author);
+  // Bearer tokenString
 
   const token = author.split(' ')[1];
 
