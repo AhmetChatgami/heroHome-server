@@ -76,7 +76,7 @@ async function run() {
       });
       res.send({ success: true, result });
     });
-    console.log("Connected to MongoDB");
+    // console.log("Connected to MongoDB");
 
     
 
