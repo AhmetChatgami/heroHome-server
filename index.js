@@ -94,6 +94,7 @@ async function run() {
 
       res.send({ success: true, result });
     });
+    
 
     // Delete API
     app.delete("/providers/:id", async (req, res) => {
